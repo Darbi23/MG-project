@@ -1,3 +1,9 @@
+
+$('.faq-title').on('click', function() {
+  $(this).next().slideToggle();
+})
+
+
 var swiperMain = new Swiper('.main-container', {
   slidesPerView: 4,
   spaceBetween: 16,
@@ -24,11 +30,6 @@ var swiperMain = new Swiper('.context-container', {
     prevEl: '.arrow-prev',
   },
 });
-
-
-$('.faq-title').on('click', function() {
-  $(this).next().slideToggle();
-})
 
 
 $('.about').hover(
