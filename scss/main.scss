@@ -702,6 +702,9 @@ h2 {
 
         img { 
             border-radius: 8px;
+            width: 384px;
+            height: 472px;
+            border-radius: 8px;
         }
 
         .faq-questions {
@@ -820,6 +823,28 @@ h2 {
     &__map {
         border-radius: 8px;
         overflow: hidden;
+    }
+}
+
+.contact_map {
+    height: 418px;
+    width: 800px;  
+    border-radius: 8px;
+
+    #map {
+        height: 100%;
+        border-radius: 8px;
+    }
+}
+
+.main_map {
+    height: 335px;
+    width: 100%;  
+    border-radius: 8px;
+
+    #map {
+        height: 100%;
+        border-radius: 8px;
     }
 }
 

@@ -10,6 +10,12 @@
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css">
     <title>MG_Law</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiAQXgHEBt73ZjkUiLjMbTy2Pw7DVGcrI&map_ids=278779b8b89d33a7&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
+    
 </head>
 <body>
     <header>
@@ -143,8 +149,8 @@
                         </li>
                     </ul>   
                 </div>
-                <div class="map" id="map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5950.460687309722!2d44.80453236217499!3d41.780249201358565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40446dbbab8cecf9%3A0xd036583b1dfb919c!2sEast%20European%20University!5e0!3m2!1sen!2sge!4v1603475343995!5m2!1sen!2sge" width="798" height="418" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                <div class="contact_map">
+                    <div id="map"></div>
                 </div>
             </div>
         </div>
@@ -230,5 +236,6 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/swiper.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/map.js"></script>
 </body>
 </html>

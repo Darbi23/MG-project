@@ -1,4 +1,3 @@
-
 $('.faq-title').on('click', function() {
   $(this).next().slideToggle();
 })
@@ -81,3 +80,5 @@ $('.x-btn1').click( ()=> {
 //   zoom: 11
 // };     
 // var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+
