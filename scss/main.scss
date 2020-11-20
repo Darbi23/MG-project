@@ -1284,7 +1284,7 @@ footer {
             padding: 0 80px;
            
             &__each{
-                width: 349px;
+                width: calc(50% - 12px);
                 height: 65px;
                 background-color: #413e49;
                 border: 1px solid #54525F;
@@ -1318,6 +1318,79 @@ footer {
         }
     }
 }
+
+.input_wrapper {
+    display: none;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 27px 24px;
+    width: 100%;
+    padding: 0 80px;   
+    margin: 0 auto;
+
+    .input1 {
+        height: 52px;
+        background-color: #413e49;
+        border: 1px solid #54525F;
+        position: relative;
+        border-radius: 8px;
+        @include flexCenter(space-between);
+        padding: 0 24px;
+        cursor: pointer;
+
+        &:hover {
+            border: 1px solid #FFF;
+        }
+
+        input {
+            background: none;
+            width: 100%;
+            border: 1px solid transparent;
+            outline: none;
+            color: #FFF;
+            z-index: 3;
+            font-size: 16px;
+            font-family: 'europa-regular';
+            margin-top: 20px;
+            padding: 0;
+        }
+
+        label {
+            color: #939AAD;
+            font-size: 16px;
+            font-family: 'europa-regular';
+            position: absolute;
+            top: 15px;
+            z-index: 1;
+
+            &.focused {
+                transform: translateY(-10px) translateX(-5px) scale(0.75);
+            }
+        }
+    }
+}
+.next-button {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    color: #939aad;
+    position: absolute;
+    bottom: 84px;
+    cursor: pointer;
+    .next-btn {
+        color: #939aad;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        @include flexCenter(center);
+        background-color: #413e49;
+        margin-left: 17px;
+    }
+
+    &:hover .next-btn path{
+        fill: #FFF;
+    }
+}
+
 
 .x-btn, .x-btn1 {
     width: 40px;

@@ -1778,7 +1778,7 @@ footer .footer-bottom div {
 }
 
 .apply-form .answer_wrapper__each {
-  width: 349px;
+  width: calc(50% - 12px);
   height: 65px;
   background-color: #413e49;
   border: 1px solid #54525F;
@@ -1814,6 +1814,102 @@ footer .footer-bottom div {
 
 .apply-form .answer_wrapper__each i {
   color: #939AAD;
+}
+
+.input_wrapper {
+  display: none;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  gap: 27px 24px;
+  width: 100%;
+  padding: 0 80px;
+  margin: 0 auto;
+}
+
+.input_wrapper .input1 {
+  height: 52px;
+  background-color: #413e49;
+  border: 1px solid #54525F;
+  position: relative;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 24px;
+  cursor: pointer;
+}
+
+.input_wrapper .input1:hover {
+  border: 1px solid #FFF;
+}
+
+.input_wrapper .input1 input {
+  background: none;
+  width: 100%;
+  border: 1px solid transparent;
+  outline: none;
+  color: #FFF;
+  z-index: 3;
+  font-size: 16px;
+  font-family: 'europa-regular';
+  margin-top: 20px;
+  padding: 0;
+}
+
+.input_wrapper .input1 label {
+  color: #939AAD;
+  font-size: 16px;
+  font-family: 'europa-regular';
+  position: absolute;
+  top: 15px;
+  z-index: 1;
+}
+
+.input_wrapper .input1 label.focused {
+  -webkit-transform: translateY(-10px) translateX(-5px) scale(0.75);
+          transform: translateY(-10px) translateX(-5px) scale(0.75);
+}
+
+.next-button {
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #939aad;
+  position: absolute;
+  bottom: 84px;
+  cursor: pointer;
+}
+
+.next-button .next-btn {
+  color: #939aad;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #413e49;
+  margin-left: 17px;
+}
+
+.next-button:hover .next-btn path {
+  fill: #FFF;
 }
 
 .x-btn, .x-btn1 {

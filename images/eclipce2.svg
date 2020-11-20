@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="172" height="172" viewBox="0 0 172 172">
+  <defs>
+    <filter id="Ellipse_9" x="0" y="0" width="172" height="172" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feFlood flood-color="#2b0157" flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_3606" data-name="Group 3606" transform="translate(-157 -248)">
+    <g id="Group_2733" data-name="Group 2733" transform="translate(-1 31)">
+      <g transform="matrix(1, 0, 0, 1, 158, 217)" filter="url(#Ellipse_9)">
+        <g id="Ellipse_9-2" data-name="Ellipse 9" transform="translate(36 36)" fill="#fff" stroke="#f0eef3" stroke-width="6">
+          <circle cx="50" cy="50" r="50" stroke="none"/>
+          <circle cx="50" cy="50" r="47" fill="none"/>
+        </g>
+      </g>
+      <g id="Group_2732" data-name="Group 2732" transform="translate(0 -10)">
+        <g id="Ellipse_10" data-name="Ellipse 10" transform="translate(194 263)" fill="none" stroke="#2b0157" stroke-width="6" stroke-dasharray="77 387">
+          <circle cx="50" cy="50" r="50" stroke="none"/>
+          <circle cx="50" cy="50" r="47" fill="none"/>
+        </g>
+        <g id="Group_3005" data-name="Group 3005">
+          <line id="Line_153" data-name="Line 153" x2="39" transform="translate(224.5 313)" fill="none" stroke="#2b0157" stroke-width="2"/>
+          <text id="_2" data-name="2" transform="translate(244 305)" fill="#2b0157" font-size="16" font-family="Europa-Bold, Europa" font-weight="700"><tspan x="-4.438" y="0">2</tspan></text>
+          <text id="_4" data-name="4" transform="translate(244 333)" fill="#2b0157" font-size="16" font-family="Europa-Bold, Europa" font-weight="700"><tspan x="-4.742" y="0">4</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

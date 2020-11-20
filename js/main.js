@@ -74,6 +74,23 @@ $('.x-btn1').click( ()=> {
   $('body').css('overflow', 'scroll');
 });
 
+$('.inp1').on('focus', function() {
+  $(this).next().addClass('focused');
+})
+
+$('.inp1').on('blur', function() {
+  if ($(this).val() === "") {
+    $(this).next().removeClass('focused');
+  }
+})
+
+$('.answer_wrapper').on('click','#answer', function() {
+  $('.answer_wrapper').css("display", "none");
+  $('.input_wrapper').css("display", "grid");
+  $('.next-button').css("display", "flex");
+  $('.eclipce').attr("src","images/eclipce2.svg");
+})
+
 // var mapOptions = {
 //   center: new google.maps.LatLng(40.435833800555567, -78.44189453125),
 //   mapTypeId: google.maps.MapTypeId.ROADMAP,

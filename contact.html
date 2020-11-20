@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/main.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    
+    <link rel="icon" type="image/png" href="https://example.com/favicon.png"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css">
     <title>MG_Law</title>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
@@ -70,7 +70,7 @@
         <div class="apply-form">
             <div class="question">
                 <h1>apply form</h1>
-                <img src="images/elipce.svg" alt="">
+                <img class="eclipce" src="images/eclipce1.svg" alt="">
                 <h4>Do you apply as an individual or as a company?</h4>
             </div>
             <div class="answer">
@@ -82,16 +82,16 @@
                         </g>
                         </g>
                     </svg>
-                  </span>
+                </span>
                 <div class="answer_wrapper">
-                    <div class="answer_wrapper__each first">
+                    <div class="answer_wrapper__each first" id="answer">
                         <div class="answer-text">
                             <h4>Individual</h4>
                             <p>I am applying on behalf of an individual</p>
                         </div>
                         <i class="fas fa-chevron-right"></i>
                     </div>
-                    <div class="answer_wrapper__each second">
+                    <div class="answer_wrapper__each second" id="answer">
                         <div class="answer-text">
                             <h4>Individual</h4>
                             <p>I am applying on behalf of an individual</p>
@@ -99,6 +99,33 @@
                         <i class="fas fa-chevron-right"></i>
                     </div>  
                 </div>
+                <div class="input_wrapper">
+                    <div class="input1">
+                        <input class="inp1" type="text" name="name" id="name">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="input1">
+                        <input class="inp1" type="text" name="namsurnamee" id="surname">
+                        <label for="surname">Surname</label>
+                    </div>
+                    <div class="input1">
+                        <input class="inp1" type="text" name="address" id="address">
+                        <label for="address">Address</label>
+                    </div>
+                    <div class="input1">
+                        <input class="inp1" type="email" name="email" id="email">
+                        <label for="email">E-Mail</label>
+                    </div>
+                </div>
+                <div class="next-button">
+                    Next
+                    <span class="next-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="7.504" height="12.152" viewBox="0 0 7.504 12.152">
+                            <path id="Icon_material-navigate-next" data-name="Icon material-navigate-next" d="M1.428,0,0,1.428,4.638,6.076,0,10.724l1.428,1.428L7.5,6.076Z" fill="#939aad"/>
+                          </svg>                      
+                    </span>
+                </div>
+                
             </div>
         </div>
         <div class="container">
