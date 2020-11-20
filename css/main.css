@@ -1888,6 +1888,7 @@ footer .footer-bottom div {
   position: absolute;
   bottom: 84px;
   cursor: pointer;
+  font-family: 'europa-regular';
 }
 
 .next-button .next-btn {
@@ -1910,6 +1911,10 @@ footer .footer-bottom div {
 
 .next-button:hover .next-btn path {
   fill: #FFF;
+}
+
+.next-button:hover {
+  color: #FFF;
 }
 
 .x-btn, .x-btn1 {

@@ -1376,6 +1376,7 @@ footer {
     position: absolute;
     bottom: 84px;
     cursor: pointer;
+    font-family: 'europa-regular';
     .next-btn {
         color: #939aad;
         width: 40px;
@@ -1388,6 +1389,10 @@ footer {
 
     &:hover .next-btn path{
         fill: #FFF;
+    }
+
+    &:hover {
+        color: #FFF;
     }
 }
 
