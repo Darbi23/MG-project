@@ -31,48 +31,48 @@ $('.faq-title').on('click', function() {
 })
 
 
-// $('.about').hover(
-//   function() {
-//     $('.about-dropdown').addClass('hover');
-//   },
-//   function () {
-//     $('.about-dropdown').removeClass("hover");
-//   }
-// );
+$('.about').hover(
+  function() {
+    $('.about-dropdown').addClass('hover');
+  },
+  function () {
+    $('.about-dropdown').removeClass("hover");
+  }
+);
 
-// $('.lang-bar').hover(
-//   function() {
-//     $('.about-dropdown2').addClass('hover');
-//     $('.lang-arrow').addClass('rotate');
-//   },
-//   function () {
-//     $('.about-dropdown2').removeClass('hover');
-//     $('.lang-arrow').removeClass('rotate');
-//   }
-// );
+$('.lang-bar').hover(
+  function() {
+    $('.about-dropdown2').addClass('hover');
+    $('.lang-arrow').addClass('rotate');
+  },
+  function () {
+    $('.about-dropdown2').removeClass('hover');
+    $('.lang-arrow').removeClass('rotate');
+  }
+);
 
-// $('.apply-now').click(function(e) {
-//   $('.apply-form').addClass('opened');
-//   $('body').css('overflow', 'hidden');
-//   e.preventDefault();
-// })
+$('.apply-now').click(function(e) {
+  $('.apply-form').addClass('opened');
+  $('body').css('overflow', 'hidden');
+  e.preventDefault();
+})
 
-// $('.x-btn').click( ()=> { 
-//   $('.apply-form').removeClass('opened');
-//   $('body').css('overflow', 'scroll');
-// });
+$('.x-btn').click( ()=> { 
+  $('.apply-form').removeClass('opened');
+  $('body').css('overflow', 'scroll');
+});
 
-// $('.main-slide').click(function(e) {
-//   window.scrollTo(0, 0);
-//   $('.person-info').addClass('opened');
-//   $('body').css('overflow', 'hidden');
-//   e.preventDefault();
-// })
+$('.main-slide').click(function(e) {
+  window.scrollTo(0, 0);
+  $('.person-info').addClass('opened');
+  $('body').css('overflow', 'hidden');
+  e.preventDefault();
+})
 
-// $('.x-btn1').click( ()=> { 
-//   $('.person-info').removeClass('opened');
-//   $('body').css('overflow', 'scroll');
-// });
+$('.x-btn1').click( ()=> { 
+  $('.person-info').removeClass('opened');
+  $('body').css('overflow', 'scroll');
+});
 
 // var mapOptions = {
 //   center: new google.maps.LatLng(40.435833800555567, -78.44189453125),
